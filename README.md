@@ -1,4 +1,4 @@
-# scorphx-tiktok-automation-bot
+# SCORPHX-TIKTOK-BOT
 
 ![op](https://user-images.githubusercontent.com/63992417/210528515-c339c24b-f82a-4d84-bda7-12636ff2c2a6.png)
 
