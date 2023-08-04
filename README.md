@@ -1,33 +1,110 @@
-# SCORPHX TIKTOK BOT
+<div align="center">
+    <h1 align="center">
+        TikTok Bot
+    </h1>
+    <p align="center"> 
+        <i><b>Automate TikTok views, likes, & follows 👁️</b></i>
+    </p>
 
-![op](https://user-images.githubusercontent.com/63992417/210528515-c339c24b-f82a-4d84-bda7-12636ff2c2a6.png)
+[![Github][github]][github-url]
+
+  </div>
+
+## Table of Contents
+
+  <ol>
+    <a href="#about">📝 About</a><br/>
+    <a href="#how-to-build">💻 How to Build</a><br/>
+        <ul>
+            <a href="#steps">Steps</a>
+            <a href="#pros-and-cons">Pros and Cons</a>
+        </ul>
+    <a href="#tools-used">🔧 Tools Used</a>
+        <ul>
+        </ul>
+    <a href="#contact">👤 Contact</a>
+  </ol>
+
+<br/>
+
+## 📝About
+
+Coded a TikTok automation bot to:
+- View videos
+- Send Likes
+- Gain Followers
+
+I created this for my business <b>[Scorphx](https://scorphx.shop)</b> to take advantage of TikTok's "viral content" algorithm during the most viral time for my business (2022 World Cup): generate rapid engagement, promote the concept kits I was selling, and direct mass traffic to link-in-bio i.e. my [online store](https://scorphx.shop).
+
+<br/>
+
+## 💻How to Build
+
+- `Selenium` library- controls a web browser and navigate to TikTok, where it allows user to select from a number of different modes that perform different actions.
+- Uses `pyfiglet` library to display banner message = visually appealing.
+- Includes functions to clear/title text in terminal = easy to read program output and see current status.
+- Checks if current ChromeDriver version exists. If it doesn't, downloads it automatically.
+- Several try and except blocks to catch exception i.e. minimize program crashes.
+- `strftime` function- formats into user-friendly readable elapsed time.
 
 
-## How do I install and use this?
-1. Git-clone this repo & change directory
+### Steps
+1. Clone repo:
    <pre>git clone https://github.com/vdutts7/scorphx-tiktok-automation-bot </pre>
    <pre>cd scorphx-tiktok-automation-bot</pre>
-2. Install modules using pip:
+2. Install modules:
    <pre>pip install -r scorphx-algo-reqs.txt</pre>
-3. Make sure you have Google Chrome installed
-4. Run the .py file!
+3. Run the `.py` file:
    <pre>python the-scorphx-algo.py</pre>
 
-## Pros (from POV of a non-coder looking for absolute convenience)
-1. The code uses pyfiglet library to display banner message = visually appealing.
-2. Includes functions to clear/title text in terminal = easy to read program output and see current status.
-3. Checks if current ChromeDriver version exists. If it doesn't, downloads it automatically.
-4. Several try and except blocks to catch exception i.e. minimize program crashes.
-5. strftime function --> formats into user-friendly readable elapsed time.
+### Pros and Cons
+_*from POV of a non-coder looking for absolute convenience_
 
-## Cons (from POV of a non-coder looking for absolute convenience)
-1. Code uses the Selenium library to control a web browser, which can be unreliable and prone to breaking when websites change. If TikTok makes any updates to their website, the code may no longer work as intended.
-2. Depending on your perspective, the code may be seen as not aligned with the values in TikTok's "Community Guidelines". Real question is- who reads those in the first place? THose people probably wouldn't even make it this far in attention span or comprehension. It's alright, if you're here reading this youre in better shape to attack the ever-changing algorithm.
-3. The code is using the chromedriver_autoinstaller library to check if the current version of ChromeDriver exists and, if it doesn't, download it automatically. This could potentially cause issues if the version of ChromeDriver that is being downloaded is incompatible with the version of Chrome being used.
-4. The code does not include any error handling for invalid input, such as if the user enters a value that is not an integer when prompted to select a mode. This could result in the program crashing if the user enters invalid input.
+<b>Pros</b>
 
-## Note
-The first recaptcha has to be completed manually. 
+- Banner message = visually appealing.
+- Includes functions to clear/title text in terminal = easy to read program output and see current status.
+- Checks if current ChromeDriver version exists. If it doesn't, downloads it automatically.
+- Several try and except blocks to catch exception i.e. minimize program crashes.
+- strftime function --> formats into user-friendly readable elapsed time.
+<br/>
 
-## Special thanks to
-https://zefoy.com/ for providing this amazing free service!
+<b>Cons</b>
+
+- Code uses `Selenium` to control a web browser, which can be unreliable and prone to breaking when websites change. 
+    - If TikTok makes any important updates, code may break.
+- Code uses `chromedriver_autoinstaller` library to check if the current version of ChromeDriver exists and, if it doesn't, download it automatically. Potential compatibility issues.
+- Does not include error handling for invalid input i.e. if user enters a value that is not an integer when prompted to select a mode. This could result in the program crashing if the user enters invalid input.
+
+<br/>
+<br/>
+
+
+
+## 🔧Tools Used
+
+[![Selenium][Selenium]][Selenium-url]
+[![python][python]][python-url]
+
+
+<br/>
+
+## 👤Contact
+
+[![Email][email]][email-url]
+[![Twitter][twitter]][twitter-url]
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[selenium]: https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white
+[selenium-url]: https://www.selenium.dev/
+[python]: https://img.shields.io/badge/Python_(pyfiglet)-3776AB?style=for-the-badge&logo=python&logoColor=white
+[python-url]: https://www.python.org/
+
+[github]: https://img.shields.io/badge/💻Github-000000?style=for-the-badge
+[github-url]: https://github.com/vdutts7/tiktok-bot/
+[email]: https://img.shields.io/badge/me@vdutts7.com-FFCA28?style=for-the-badge&logo=Gmail&logoColor=00bbff&color=black
+[email-url]: #
+[twitter]: https://img.shields.io/badge/Twitter-FFCA28?style=for-the-badge&logo=Twitter&logoColor=00bbff&color=black
+[twitter-url]: https://twitter.com/vdutts7/
