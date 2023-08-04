@@ -42,11 +42,7 @@ I created this for my business <b>[Scorphx](https://scorphx.shop)</b> to take ad
 
 - `Selenium` library- controls a web browser and navigate to TikTok, where it allows user to select from a number of different modes that perform different actions.
 - Uses `pyfiglet` library to display banner message = visually appealing.
-- Includes functions to clear/title text in terminal = easy to read program output and see current status.
-- Checks if current ChromeDriver version exists. If it doesn't, downloads it automatically.
-- Several try and except blocks to catch exception i.e. minimize program crashes.
 - `strftime` function- formats into user-friendly readable elapsed time.
-
 
 ### Steps
 1. Clone repo:
@@ -66,7 +62,7 @@ _*from POV of a non-coder looking for absolute convenience_
 - Includes functions to clear/title text in terminal = easy to read program output and see current status.
 - Checks if current ChromeDriver version exists. If it doesn't, downloads it automatically.
 - Several try and except blocks to catch exception i.e. minimize program crashes.
-- strftime function --> formats into user-friendly readable elapsed time.
+- `strftime` function --> formats into user-friendly readable elapsed time.
 <br/>
 
 <b>Cons</b>
