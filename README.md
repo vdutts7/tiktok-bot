@@ -1,14 +1,19 @@
+<br />
 <div align="center">
-    <h1 align="center">
-        TikTok Bot
-    </h1>
-    <p align="center"> 
-        <i><b>Automate TikTok views, likes, & follows 👁️</b></i>
-    </p>
 
+  <img src="https://res.cloudinary.com/dnz16usmk/image/upload/f_auto,q_auto/v1/vd7-website/tiktok-logo" alt="Logo" width="75" height="75"/>
+  <img src="https://res.cloudinary.com/dnz16usmk/image/upload/f_auto,q_auto/v1/vd7-website/python-logo_" alt="Logo" width="80" height="80"/>
+
+  
+  <h2 align="center">TikTok Bot</h2> 
+  <p align="center">Automate TikTok views, likes, & follows 👁️</p>
+
+[![Website][website]][website-url]
 [![Github][github]][github-url]
 
-  </div>
+ </div>
+
+<br/>
 
 ## Table of Contents
 
