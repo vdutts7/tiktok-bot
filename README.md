@@ -30,6 +30,7 @@
 ## 📝About
 
 Coded a TikTok automation bot to:
+
 - View videos
 - Send Likes
 - Gain Followers
@@ -45,6 +46,7 @@ I created this for my business <b>[Scorphx](https://scorphx.shop)</b> to take ad
 - `strftime` function- formats into user-friendly readable elapsed time.
 
 ### Steps
+
 1. Clone repo:
    <pre>git clone https://github.com/vdutts7/scorphx-tiktok-automation-bot </pre>
    <pre>cd scorphx-tiktok-automation-bot</pre>
@@ -54,7 +56,8 @@ I created this for my business <b>[Scorphx](https://scorphx.shop)</b> to take ad
    <pre>python the-scorphx-algo.py</pre>
 
 ### Pros and Cons
-_*from POV of a non-coder looking for absolute convenience_
+
+_\*from POV of a non-coder looking for absolute convenience_
 
 <b>Pros</b>
 
@@ -63,25 +66,22 @@ _*from POV of a non-coder looking for absolute convenience_
 - Checks if current ChromeDriver version exists. If it doesn't, downloads it automatically.
 - Several try and except blocks to catch exception i.e. minimize program crashes.
 - `strftime` function --> formats into user-friendly readable elapsed time.
-<br/>
+  <br/>
 
 <b>Cons</b>
 
-- Code uses `Selenium` to control a web browser, which can be unreliable and prone to breaking when websites change. 
-    - If TikTok makes any important updates, code may break.
+- Code uses `Selenium` to control a web browser, which can be unreliable and prone to breaking when websites change.
+  - If TikTok makes any important updates, code may break.
 - Code uses `chromedriver_autoinstaller` library to check if the current version of ChromeDriver exists and, if it doesn't, download it automatically. Potential compatibility issues.
 - Does not include error handling for invalid input i.e. if user enters a value that is not an integer when prompted to select a mode. This could result in the program crashing if the user enters invalid input.
 
 <br/>
 <br/>
 
-
-
 ## 🔧Tools Used
 
-[![Selenium][Selenium]][Selenium-url]
+[![Selenium][selenium]][selenium-url]
 [![python][python]][python-url]
-
 
 <br/>
 
@@ -97,10 +97,9 @@ _*from POV of a non-coder looking for absolute convenience_
 [selenium-url]: https://www.selenium.dev/
 [python]: https://img.shields.io/badge/Python_(pyfiglet)-3776AB?style=for-the-badge&logo=python&logoColor=white
 [python-url]: https://www.python.org/
-
 [github]: https://img.shields.io/badge/💻Github-000000?style=for-the-badge
 [github-url]: https://github.com/vdutts7/tiktok-bot/
-[email]: https://img.shields.io/badge/me@vdutts7.com-FFCA28?style=for-the-badge&logo=Gmail&logoColor=00bbff&color=black
+[email]: https://img.shields.io/badge/me@vd7.io-FFCA28?style=for-the-badge&logo=Gmail&logoColor=00bbff&color=black
 [email-url]: #
 [twitter]: https://img.shields.io/badge/Twitter-FFCA28?style=for-the-badge&logo=Twitter&logoColor=00bbff&color=black
 [twitter-url]: https://twitter.com/vdutts7/
