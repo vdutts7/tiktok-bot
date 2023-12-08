@@ -8,7 +8,6 @@
   <h2 align="center">TikTok Bot</h2> 
   <p align="center">Automate TikTok views, likes, & follows 👁️</p>
 
-[![Website][website]][website-url]
 [![Github][github]][github-url]
 
  </div>
