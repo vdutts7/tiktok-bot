@@ -1,9 +1,21 @@
-import webdriver
 from os import system, name
-import chromedriver_binary
 from time import time, strftime, gmtime, sleep
-import pyfiglet, os, threading
-import chromedriver_autoinstaller
+import threading
+
+try:
+    from selenium import webdriver
+    import chromedriver_binary
+    import pyfiglet
+    import chromedriver_autoinstaller
+except:
+    print("[ERROR] Modules not installed.")
+    print("Installing now...")
+    system("pip install -r scorphx-algo-reqs.txt")
+    from selenium import webdriver
+    import chromedriver_binary
+    import pyfiglet
+    import chromedriver_autoinstaller
+
 
 # Check if the current version of chromedriver exists and, if it doesn't exist, download it automatically
 chromedriver_autoinstaller.install()
@@ -54,4 +66,4 @@ def update_title2(): # Update the title IF option 2 was picked.
     
     while True:
         time_elapsed = strftime('%H:%M:%S', gmtime(time() - start))
-        system(f'title PROGRAM_NAME ^| Metric 2: {beautify(metric2
+        system(f'title PROGRAM_NAME ^| Metric 2: {beautify(metric2)}')
