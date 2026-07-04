@@ -1,12 +1,11 @@
-https://vt.tiktok.com/ZSuLdjJUt/<br />
 <div align="center">
 
-  <img src="https://res.cloudinary.com/dnz16usmk/image/upload/f_auto,q_auto/v1/vd7-website/tiktok-logo" alt="Logo" width="75" height="75"/>
-  <img src="https://res.cloudinary.com/dnz16usmk/image/upload/f_auto,q_auto/v1/vd7-website/python-logo_" alt="Logo" width="80" height="80"/>
+<img src="https://raw.githubusercontent.com/vdutts7/squircle/refs/heads/main/webp/tiktok.webp" alt="Logo" width="75" height="75"/>
+<img src="https://raw.githubusercontent.com/vdutts7/squircle/refs/heads/main/webp/python.webp" alt="Logo" width="80" height="80"/>
 
   
   <h2 align="center">TikTok Bot</h2> 
-  <p align="center">Automate TikTok views, likes, & follows 👁️</p>
+  <p align="center">automate TikTok views, likes, & follows 👁️</p>
 
 [![Github][github]][github-url]
 
